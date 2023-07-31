@@ -1,0 +1,42 @@
+{
+  "RequestInfo": {
+    "authToken": "${authToken}"
+  },
+  "Households":[
+    {
+      "tenantId": "mz",
+      "clientReferenceId": "${uuid1}",
+      "memberCount": 5,
+      "address": {
+        "tenantId": "mz",
+        "doorNo": "123",
+        "latitude": 12.34,
+        "longitude": 123.45,
+        "locationAccuracy": 123.76,
+        "type": "1",
+        "addressLine1": "address",
+        "addressLine2": "Road Number 12",
+        "landmark": "Near Niagara Lake",
+        "city": "Bangalore",
+        "pincode": "1234567",
+        "buildingName": "Alpine Apartments",
+        "street": "test_da0b8ebec5ef",
+        "locality": {
+          "code": "locality code",
+          "name": "locality name"
+        }
+      },
+      "additionalFields": {
+        "schema": "test_e37466be924cjhghjg",
+        "version": 8,
+        "fields": [
+          {
+            "key": "test_12bc5f24692f",
+            "value": "test_bf376bce4c01"
+          }
+        ]
+      },
+      "rowVersion": 0
+    }
+  ]
+}

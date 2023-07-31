@@ -1,0 +1,65 @@
+{
+  "RequestInfo": {
+    "authToken": "${authToken}"
+  },
+  "Tasks": [
+    {
+      "tenantId": "mz",
+      "projectId": "d40387f6-9110-42c6-833e-f618e5fcfc98",
+      "projectBeneficiaryClientReferenceId": "8e888b14-7002-4e9c-ae88-cbd71d9c402f",
+      "clientReferenceId": "${uuid1}",
+      "resources": [
+        {
+          "tenantId": "mz",
+          "clientReferenceId": "${uuid2}",
+          "taskClientReferenceId": "${uuid3}",
+          "productVariantId": "PVAR-2023-07-25-000003",
+          "quantity": 2,
+          "isDelivered": true,
+          "deliveryComment": "Service delivery is completed"
+        }
+      ],
+      "plannedStartDate": 1675582245,
+      "plannedEndDate": 1707723045,
+      "actualStartDate": 1707550245,
+      "actualEndDate": 1707590245,
+      "createdBy": "56b5c31b-b843-426c-b8d5-64a4c80286aa",
+      "createdDate": 1707550245,
+      "address": {
+        "tenantId": "mz",
+        "doorNo": "test_4b2c5ad43e11",
+        "latitude": 86.78,
+        "longitude": 77.12,
+        "locationAccuracy": 65.67,
+        "type": "PERMANENT",
+        "addressLine1": "test_2512bdc41cb2",
+        "addressLine2": "test_afa1eadcb4f0",
+        "landmark": "test_d7ee474cb6da",
+        "city": "test_932d23b00265",
+        "pincode": "test_637fa8890171",
+        "buildingName": "test_90f36fdaf51d",
+        "street": "test_105ae34b63c6",
+        "locality": {
+          "code": "test_218f32cdca88",
+          "name": "test_66187cb44cb7",
+          "label": "test_fd101b472626",
+          "latitude": "test_1b1c8cbc83c3",
+          "longitude": "test_f42b04a12d34",
+          "materializedPath": "test_e5388dd34db2"
+        }
+      },
+      "additionalFields": {
+        "schema": "test_5266efb5bcd9",
+        "version": 24,
+        "fields": [
+          {
+            "key": "test_b9aa6f50056e",
+            "value": "test_dcfafb1be02f"
+          }
+        ]
+      },
+      "rowVersion": 1,
+      "status": ""
+    }
+  ]
+}

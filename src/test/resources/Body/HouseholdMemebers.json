@@ -1,0 +1,14 @@
+{
+  "RequestInfo": {
+    "authToken": "${authToken}"
+  },
+  "HouseholdMembers": [
+    {
+      "householdClientReferenceId": "${uuid1}",
+      "individualClientReferenceId": "${uuid2}",
+      "isHeadOfHousehold": true,
+      "tenantId": "mz",
+      "rowVersion": 1
+    }
+  ]
+}

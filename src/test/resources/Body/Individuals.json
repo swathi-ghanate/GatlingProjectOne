@@ -1,0 +1,76 @@
+{
+  "RequestInfo": {
+    "authToken": "${authToken}"
+  },
+  "Individuals": [ {
+    "tenantId": "mz",
+    "clientReferenceId": "${uuid2}",
+    "name": {
+      "givenName": "Souravtc5m3sbrn6",
+      "familyName": "Gangulyp9uzsbmck9",
+      "otherNames": "Dadavu8wv8vepr"
+    },
+    "dateOfBirth": "25/12/1991",
+    "gender": "FEMALE",
+    "bloodGroup": "A-",
+    "mobileNumber": "9876543210",
+    "altContactNumber": "8765432109",
+    "email": "souravganguly_dada@gmail.com",
+    "address": [
+      {
+
+        "tenantId": "mz",
+        "doorNo": "123",
+        "latitude": 40.82,
+        "longitude": 35.06,
+        "locationAccuracy": 14.27,
+        "type": "PERMANENT",
+        "addressLine1": "Apartment",
+        "addressLine2": "2nd Floor",
+        "landmark": "Near Juhu Beach",
+        "city": "Mumbai",
+        "pincode": "123456",
+        "buildingName": "Apartment",
+        "street": "Necklace Road",
+        "locality": {
+          "code": "test_9b31746b933d",
+          "name": "test_58630a388978",
+          "label": "test_7b7f928dcab8",
+          "latitude": "test_15d4a90d15a6",
+          "longitude": "test_e8854daed039",
+          "children": []
+        }
+      }
+    ],
+    "fatherName": "Ganguly Sr",
+    "husbandName": null,
+    "identifiers": [
+      {
+        "identifierType": "PASSPORT",
+        "identifierId": "931419274506",
+        "clientReferenceId": "${uuid3}"
+      }
+    ],
+    "skills": [
+      {
+        "type": "Science",
+        "level": "Learner",
+        "experience": "3 Years",
+        "clientReferenceId": "${uuid3}"
+      }
+    ],
+    "photo": "test_35bd4e8545d8",
+    "additionalFields": {
+      "schema": "test_f76b4cca6bff",
+      "version": 23,
+      "fields": [
+        {
+          "key": "test_80f7fb8d8a45",
+          "value": "test_38bfd0dc223b"
+        }
+      ]
+    },
+    "rowVersion": 1
+  }
+  ]
+}
